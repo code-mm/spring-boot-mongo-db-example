@@ -1,5 +1,13 @@
 # spring boot 操作 mongodb
 
+## 环境搭建
+
+### docker 安装mongodb
+
+```shell
+docker run --name mongo -p 27017:27017 -d mongo
+```
+
 ## 保存数据
 
 http://localhost:8080/save?id=15
